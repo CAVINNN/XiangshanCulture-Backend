@@ -117,39 +117,6 @@ public class TDBUtil {
         return set;
     }
 
-//    public static Set<String> getURIs() {
-//        Dataset ds = null;
-//        Model model = null;
-//        OntModel ontModel = null;
-//        Set<String> set = new HashSet<>();
-//        try {
-//            ds = TDBFactory.createDataset(tdbDirectory);
-//            ds.begin(ReadWrite.READ);
-//            model = ds.getNamedModel(TDBUtil.inferredNamedModel);
-//            ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, model);
-//            Iterator<OntClass> classIterator = ontModel.listHierarchyRootClasses();
-//            System.out.println("getURIs");
-//            while ( classIterator.hasNext() ) {
-//                OntClass ontClass = classIterator.next();
-//                if ( !ontClass.isAnon() ) {
-//                    set.add(ontClass.getURI().substring(0, ontClass.getURI().indexOf("#")));
-//                }
-//            }
-//            ds.end();
-//        } finally {
-//            if (ontModel != null) {
-//                ontModel.close();
-//            }
-//            if (model != null) {
-//                model.close();
-//            }
-//            if (ds != null) {
-//                ds.close();
-//            }
-//        }
-//        return set;
-//    }
-
     // org.apache.jena.sparql.ARQException: ResultSet no longer valid (QueryExecution has been closed)
     public static ResultSet query(String queryString) {
         Dataset ds = null;

@@ -32,7 +32,7 @@ public class WebExtendConfig {
             // 配置拦截器
             @Override
             public void addInterceptors(InterceptorRegistry registry) {
-                registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/admin/isLogin", "/admin/register", "/admin/login");
+                registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/static/**", "/admin/isLogin", "/admin/register", "/admin/login", "/index.html");
             }
         };
     }
