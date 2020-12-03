@@ -1,6 +1,6 @@
 ## 香山文化知识图谱系统 - Xiangshan Culture Knowledge Graph System
 
-### 技术栈： Maven + SpringBoot + MyBatis + Vue + ELEMENT UI + MySQL
+### 技术栈： Maven + SpringBoot + MyBatis + Vue + ELEMENT UI + Echarts + MySQL
 
 * **首页 (index)**
 ![image](https://raw.githubusercontent.com/CAVINNN/XiangshanCulture-Backend/master/screenshots/%E9%A6%96%E9%A1%B5.png)  
