@@ -1,5 +1,7 @@
 ## 香山文化知识图谱系统 - Xiangshan Culture Knowledge Graph System
 
+### [项目介绍](http://epaper.oeeee.com/epaper/N/html/2017-04/13/content_22061.htm)
+
 ### 技术栈： Maven + SpringBoot + MyBatis + Vue + ELEMENT UI + Echarts + MySQL
 
 * **首页 (index)**
